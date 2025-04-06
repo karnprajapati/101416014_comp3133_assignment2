@@ -1,0 +1,127 @@
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/Users/karnprajapati/Downloads/Semester 6/Full stack COMP 3133/Assignments/A2/101416014_comp3133_assignment2/frontend/src/app/pages/assets') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(63, 81, 181, 0.9); /* Semi-transparent Material Blue */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.employee-list-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3f51b5; /* Material Blue */
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #3f51b5; /* Material Blue */
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #303f9f; /* Darker Material Blue */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mat-header-row {
+  background-color: #3f51b5; /* Material Blue */
+}
+
+.mat-header-cell {
+  color: white;
+  font-weight: 600;
+  padding: 16px;
+  text-align: center;
+}
+
+.mat-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.mat-cell {
+  padding: 16px;
+  text-align: center;
+  font-size: 15px;
+  color: #2d3436;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #6c757d; /* Neutral gray */
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+  border-top: 1px solid #e4e4e7; /* Light gray border */
+}
+
+.action-buttons button[color="primary"] {
+  background-color: #0056b3; /* Original Material Blue */
+  color: #fff;
+}
+
+.action-buttons button[color="accent"] {
+  background-color: #2aa198; /* Original Accent Color */
+  color: #fff;
+}
+
+.action-buttons button[color="warn"] {
+  background-color: #e74c3c; /* Original Warning Red */
+  color: #fff;
+}
+
+.action-buttons button:hover {
+  opacity: 0.85; /* Slight hover effect */
+}
+
+

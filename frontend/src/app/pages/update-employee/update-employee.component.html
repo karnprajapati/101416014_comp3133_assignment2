@@ -1,0 +1,36 @@
+<div class="navbar">
+  <span>Employee Management System</span>
+</div>
+
+<div class="update-employee-container" *ngIf="employeeForm">
+  <h2>Update Employee</h2>
+  <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+    <mat-form-field class="form-field" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" placeholder="Enter employee's name" required />
+    </mat-form-field>
+
+    <mat-form-field class="form-field" appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" placeholder="Enter employee's email" required />
+    </mat-form-field>
+
+    <mat-form-field class="form-field" appearance="fill">
+      <mat-label>Department</mat-label>
+      <input matInput formControlName="department" placeholder="Enter department" required />
+    </mat-form-field>
+
+    <mat-form-field class="form-field" appearance="fill">
+      <mat-label>Position</mat-label>
+      <input matInput formControlName="position" placeholder="Enter position" required />
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="employeeForm.invalid">
+      Update Employee
+    </button>
+  </form>
+</div>
+
+<div class="footer">
+  © 2025 Employee Management System. All rights reserved.
+</div>

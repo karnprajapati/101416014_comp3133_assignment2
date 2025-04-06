@@ -1,0 +1,24 @@
+<div class="navbar">
+  <span>Employee Management System</span>
+</div>
+
+<div class="view-employee-container" *ngIf="employee">
+  <h2>Employee Details</h2>
+
+  <div class="profile-picture" *ngIf="employee.profilePic">
+    <img [src]="employee.profilePic" alt="Profile Picture" />
+  </div>
+
+  <div class="employee-details">
+    <p><strong>Name:</strong> {{ employee.name }}</p>
+    <p><strong>Email:</strong> {{ employee.email }}</p>
+    <p><strong>Department:</strong> {{ employee.department }}</p>
+    <p><strong>Position:</strong> {{ employee.position }}</p>
+  </div>
+
+  <button mat-raised-button color="primary" (click)="goBack()">Back</button>
+</div>
+
+<div class="footer">
+  © 2025 Employee Management System. All rights reserved.
+</div>
