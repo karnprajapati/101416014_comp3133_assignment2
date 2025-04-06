@@ -1,19 +1,19 @@
-# 🚀 Employee Management System
+# Employee Management System
 
 A full-stack **Employee Management Web Application** built using **Angular (Frontend)** and **Node.js + GraphQL + MongoDB (Backend)**.  
 The app allows users to **sign up**, **log in**, and perform full **CRUD operations** on employee records, including **profile picture uploads**. The application is fully **containerized using Docker** for easy deployment.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-| Layer        | Technologies                                                  |
-|--------------|---------------------------------------------------------------|
-| Frontend     | Angular 19, Apollo Angular, Angular Material                  |
-| Backend      | Node.js, Express, Apollo Server, GraphQL                      |
-| Authentication | JWT (JSON Web Tokens)                                      |
-| Database     | MongoDB Atlas                                                 |
-| Deployment   | Docker, Docker Compose                                        |
+ Layer         Technologies                                                  
+
+| Frontend     : Angular 19, Apollo Angular, Angular Material                  
+| Backend      :Node.js, Express, Apollo Server, GraphQL                      
+| Authentication : JWT (JSON Web Tokens)                                      
+| Database   :MongoDB Atlas                                                 
+| Deployment : Docker, Docker Compose                                   
 
 ---
 
